@@ -7,7 +7,7 @@ africastalking.initialize(username, api_key)
 sms = africastalking.SMS
 
 
-# response  = sms.send("Hello Msg", ["+254793723138"])
+# response  = sms.send("منور يا زعيم", ["+966593605692"])
 # print(response)
 
 def on_finish(error, response):
@@ -15,4 +15,4 @@ def on_finish(error, response):
         raise error
     print(response)
 
-sms.send("Hello Msg", ["+254793723138"], callback=on_finish)
+sms.send("منور يا زعيم", ["+966593605692"], رجاءا اتصل بي =on_finish)
